@@ -11,7 +11,7 @@ interface TweetWithComments {
     id: number;
     title: string;
     content: string;
-    date: string;
+    date: Date;
     imageUrl: string;
     referenceUser: {
         id: number;
