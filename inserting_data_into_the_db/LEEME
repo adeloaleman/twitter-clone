@@ -1,4 +1,4 @@
-Para crear la base de datos, lo hice a través de funciones js a ser ejecutadas en la console del web browser. Estos archivos fueron simplemente creados a través the la transpilación de las correspondientes funciones creadas en TypeScript y que se encuentran en «backEnd-express/src/frontend/client.ts»:
+Para crear la base de datos, lo hice a través de funciones js a ser ejecutadas en la console del web browser. Estos archivos fueron simplemente creados a través the la transpilación de las correspondientes funciones creadas en TypeScript y que se encuentran en «backend/src/frontend/client.ts»:
 - 1create_functions.js
 - 2create_users.js
 - 3create_token.js
