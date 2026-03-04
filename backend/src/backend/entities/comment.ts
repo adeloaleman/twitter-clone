@@ -16,6 +16,6 @@ export class Comment {
     @Column()
     public content!: string;
 
-    @Column({ type: 'timestamp', default: () => 'CURRENT_TIMESTAMP'})
-    public date!: string;
+    @Column({ type: "datetime", default: () => "CURRENT_TIMESTAMP" })
+    public date!: Date;
 }
