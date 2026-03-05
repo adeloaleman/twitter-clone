@@ -3,6 +3,7 @@ module.exports = {
     {
       name: "twitter-clone-backend",
       script: "./build/index.js",
+      interpreter: "/home/ubuntu/.nvm/versions/node/v16.20.2/bin/node",
       cwd: __dirname,
       env: {
         AUTH_SECRET: "miclaveprivada",
