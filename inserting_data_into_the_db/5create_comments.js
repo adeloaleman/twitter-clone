@@ -1,33 +1,33 @@
 // Creating comments
 // 1
-createComment(2, 1,
-    "It would be nice to mention the disadvantages of a Library vs a Framework too. You mentioned 'Being able to choose the libraries that you prefer as an advantage', I agree but it is an advantage only when you are experienced enough. Having to choose libraries is difficult when you're a beginner."
-    );
-    
-createComment(3, 1,
-    "You mentioned that Angular is a framework while React is a library, but what about Vue? specially now we have Vue JS and Vue cli."
+createComment(1, 1,
+    "La realidad de esta canción perdurará hasta el fin de los tiempos. Se ven la caras pero nunca el corazón..."
     );
 
-createComment(1, 1,
-    "Material UI is a set of components created by Google, that implements their famous Material Design. With over 36k stars on Github, it’s the most popular UI package of all React libraries. It’s simple, eye-catching, light and user-friendly. It’s already been around for a couple of years, but thanks to constant updates, it hasn’t lost its popularity."
+createComment(2, 1,
+    "Difícilmente se podrá escuchar una pieza más comprometida y auténtica que ésta de Ruben, es un himno, el despertar de una raza que ha dejado de dormir y que se levanta con una conciencia de libertad"
+    );
+
+createComment(3, 1,
+    "Me acuerdo cuando mi papá se apareció una tarde del 1978 con el LP de siembra nuevecito, corte el plástico y saque el LP, le puse la aguja encima y quedé facinado. Tenia 10 años de edad.."
+    );
+
+createComment(4, 1,
+    "Era una ciudad de plástico, de esas que no quiero ver. De edificios cancerosos, y un corazón de oropel. Donde en vez de un sol amanece un dólar. Donde nadie ríe, donde nadie llora. Con gente de rostros de poliéster; que escuchan sin oír y miran sin ver. Gente que vendió por comodidad, su razón de ser y su libertad..."
     );
 
 
 // 2
-createComment(1, 2,
-    "La realidad de esta canción perdurará hasta el fin de los tiempos. Se ven la caras pero nunca el corazón..."
-    );
-
 createComment(2, 2,
-    "Difícilmente se podrá escuchar una pieza más comprometida y auténtica que ésta de Ruben, es un himno, el despertar de una raza que ha dejado de dormir y que se levanta con una conciencia de libertad"
+    "It would be nice to mention the disadvantages of a Library vs a Framework too. You mentioned 'Being able to choose the libraries that you prefer as an advantage', I agree but it is an advantage only when you are experienced enough. Having to choose libraries is difficult when you're a beginner."
     );
-
+    
 createComment(3, 2,
-    "Me acuerdo cuando mi papá se apareció una tarde del 1978 con el LP de siembra nuevecito, corte el plástico y saque el LP, le puse la aguja encima y quedé facinado. Tenia 10 años de edad.."
+    "You mentioned that Angular is a framework while React is a library, but what about Vue? specially now we have Vue JS and Vue cli."
     );
 
-createComment(4, 2,
-    "Era una ciudad de plástico, de esas que no quiero ver. De edificios cancerosos, y un corazón de oropel. Donde en vez de un sol amanece un dólar. Donde nadie ríe, donde nadie llora. Con gente de rostros de poliéster; que escuchan sin oír y miran sin ver. Gente que vendió por comodidad, su razón de ser y su libertad..."
+createComment(1, 2,
+    "Material UI is a set of components created by Google, that implements their famous Material Design. With over 36k stars on Github, it’s the most popular UI package of all React libraries. It’s simple, eye-catching, light and user-friendly. It’s already been around for a couple of years, but thanks to constant updates, it hasn’t lost its popularity."
     );
 
 
