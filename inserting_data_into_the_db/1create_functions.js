@@ -50,7 +50,7 @@ var createUser = function (user_email, user_pass, user_name, user_pic, user_bio)
                         bio: user_bio,
                         pic: user_pic
                     };
-                    return [4 /*yield*/, fetch("http://localhost:8080/api/v1/users", {
+                    return [4 /*yield*/, fetch("http://167.86.87.134:8080/api/v1/users", {
                             method: "POST",
                             headers: {
                                 "Content-Type": "application/json"
@@ -80,7 +80,7 @@ var authUser = function (user_email, user_pass) {
                         email: user_email,
                         password: user_pass
                     };
-                    return [4 /*yield*/, fetch("http://localhost:8080/api/v1/auth/login", {
+                    return [4 /*yield*/, fetch("http://167.86.87.134:8080/api/v1/auth/login", {
                             method: "POST",
                             headers: {
                                 "Content-Type": "application/json"
@@ -113,7 +113,7 @@ var createTweet = function (ref_user, title_tweet, content_tweet, image_tweet) {
                         content: content_tweet,
                         imageUrl: image_tweet
                     };
-                    return [4 /*yield*/, fetch("http://localhost:8080/api/v1/tweets", {
+                    return [4 /*yield*/, fetch("http://167.86.87.134:8080/api/v1/tweets", {
                             method: "POST",
                             headers: {
                                 "Content-Type": "application/json",
@@ -138,7 +138,7 @@ var deleteTweet = function (tweet_id) {
         var response, json;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, fetch("http://localhost:8080/api/v1/tweets/" + tweet_id, {
+                case 0: return [4 /*yield*/, fetch("http://167.86.87.134:8080/api/v1/tweets/" + tweet_id, {
                         method: "DELETE",
                         headers: {
                             "x-auth-token": JWT
@@ -161,7 +161,7 @@ var likeTweet = function (tweet_id) {
         var response, json;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, fetch("http://localhost:8080/api/v1/tweets/" + tweet_id + "/like", {
+                case 0: return [4 /*yield*/, fetch("http://167.86.87.134:8080/api/v1/tweets/" + tweet_id + "/like", {
                         method: "POST",
                         headers: {
                             "Content-Type": "application/json",
@@ -186,7 +186,7 @@ var downvoteTweet = function (tweet_id) {
         var response, json;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, fetch("http://localhost:8080/api/v1/tweets/" + tweet_id + "/downvote", {
+                case 0: return [4 /*yield*/, fetch("http://167.86.87.134:8080/api/v1/tweets/" + tweet_id + "/downvote", {
                         method: "POST",
                         headers: {
                             "Content-Type": "application/json",
@@ -218,7 +218,7 @@ var createComment = function (ref_user, ref_tweet, texto) {
                         referenceTweet: ref_tweet,
                         content: texto
                     };
-                    return [4 /*yield*/, fetch("http://localhost:8080/api/v1/comments", {
+                    return [4 /*yield*/, fetch("http://167.86.87.134:8080/api/v1/comments", {
                             method: "POST",
                             headers: {
                                 "Content-Type": "application/json",
@@ -247,7 +247,7 @@ var updateComment = function (comment_id, texto) {
                     data = {
                         content: texto
                     };
-                    return [4 /*yield*/, fetch("http://localhost:8080/api/v1/comments/" + comment_id, {
+                    return [4 /*yield*/, fetch("http://167.86.87.134:8080/api/v1/comments/" + comment_id, {
                             method: "PATCH",
                             headers: {
                                 "Content-Type": "application/json",
@@ -272,7 +272,7 @@ var deleteCommentById = function (comment_id) {
         var response, json;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, fetch("http://localhost:8080/api/v1/comments/" + comment_id, {
+                case 0: return [4 /*yield*/, fetch("http://167.86.87.134:8080/api/v1/comments/" + comment_id, {
                         method: "DELETE",
                         headers: {
                             "Content-Type": "application/json",
