@@ -37,21 +37,21 @@ createTweet(5,
             );
 
 // 6            
-createTweet(6,
+createTweet(1,
             "Comparison of top data science libraries for Python, R and Scala",    
             "Data science is a promising and exciting field, developing rapidly. The area of data science use cases and influence is continuously expanding, and the toolkit to implement these applications is growing fast. Therefore data scientists should be aware of what are the best solutions for the particular tasks.",
             null
             );
 
 // 7
-createTweet(7,
+createTweet(2,
             "Chuao Chocolatier",    
             "I particularly enjoy all things chocolate, boring I know. Right now my main squeeze is Chuao Chocolatier candy bars - especially the s'mores and pretzel toffee twirl!",
             "/images/Cacao_Chuao.png"
             );
     
 // 8
-createTweet(8,
+createTweet(3,
             "Top 10 Water Polo Goals of the Olympic Games",
             "Enjoy the Top 10 Olympic water polo goals featuring: Melania Grego (Italy), Adam Steinmetz (Hungary), Felipe Perrone (Spain), Suzie Fraser (Australia), Daniëlle de Bruijn (Netherlands), Renato Vrbicic (Croatia), Yvette Higgins (Australia), Elisa Casanova (Italy), Attila Vári (Hungary), and Márton Szivós (Hungary).",
             null
