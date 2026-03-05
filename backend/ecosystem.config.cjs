@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "twitter-backend",
+      name: "twitter-clone-backend",
       script: "./build/index.js",
       cwd: __dirname,
       env: {
