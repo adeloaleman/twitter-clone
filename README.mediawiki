@@ -1,6 +1,6 @@
 == Twitter Clone ==
 Live demo at https://twitter-clone.sinfrontera.net
-
+ 
 This Web Application was developed using:
 * '''Back-end:''' ''Node.js (Express) (TypeScript)''
 * '''Front-end:''' ''React (TypeScript)''
